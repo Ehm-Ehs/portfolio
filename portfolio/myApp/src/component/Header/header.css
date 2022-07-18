@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+
+}
+
+.sign{
+height:50px;
+width:180px;
+}
+
+.tabs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab-title{
+padding:0 10px;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.call{
+    height:30px;
+    width:30px;
+    padding: 0 10px;
+}
+
+.contact-icon{
+    padding: 0 10px;
+}
+
+
+
+.phone{
+    height:20px;
+    width:20px;
+    
+    
+}

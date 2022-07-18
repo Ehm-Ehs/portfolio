@@ -1,0 +1,50 @@
+.intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-image: url(../images/blur-stain.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left{
+
+}
+
+.naming{
+    padding: 20px;
+}
+
+.name{
+
+}
+
+.email{
+    padding: 80px 20px;
+
+}
+
+.experience{
+    padding: 20px;
+    display: flex;
+    padding-left: 100px;
+}
+
+.years{
+padding:0 10px;
+}
+
+
+.age{
+
+}
+
+.right{
+
+}
+
+.right-text{
+padding: 20px;
+}
+
