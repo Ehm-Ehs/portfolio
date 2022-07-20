@@ -1,0 +1,36 @@
+.experiences{
+   justify-content: space-between;
+   /* text-align: left;
+   width: 500px; */
+}
+
+.work{
+    text-align: center;
+}
+
+.companies{
+    white-space: nowrap;
+
+}
+
+.position{
+    padding: 0 20px;
+    white-space: wrap;
+    
+
+}
+
+.dottedLine{
+    padding: 30px;
+}
+
+.company-name{
+
+}
+
+.heading{
+ 
+}
+.p-writing{
+display: inline-block;
+}

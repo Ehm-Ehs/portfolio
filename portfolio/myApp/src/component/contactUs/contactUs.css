@@ -1,0 +1,13 @@
+.contact-us{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab1{
+    flex-direction:column ;
+    justify-content: space-between;
+}
+
+.contactLinks{
+    padding-top: 50px;
+}

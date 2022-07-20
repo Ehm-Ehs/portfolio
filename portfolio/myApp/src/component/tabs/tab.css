@@ -1,0 +1,8 @@
+.tabs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab-title{
+padding:10px 10px;
+}

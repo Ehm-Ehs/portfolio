@@ -1,17 +1,22 @@
 .skill{
 display: flex;
 justify-content: space-between;
-padding: 20px 60px;
+padding: 20px 40px;
 }
 
 .leftDown{
     display: flex;
     justify-content: space-around;
-    padding: 60px 20px;
+    padding: 60px 30px;
 }
 
 .website{
-   padding: 0 10px;
+   
+   background-color: cyan;
+   border-radius: 100px;
+   height: 100px;
+   width: 110px;
+   padding: 40px;
 }
 
 .phone{
@@ -19,6 +24,8 @@ padding: 20px 60px;
 }
 
 .skillset{
+    padding: 25px;
+    padding-left: 20px;
 
 }
 

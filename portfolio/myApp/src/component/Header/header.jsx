@@ -1,26 +1,16 @@
 import "./header.css";
 import Logo from "../images/logo.png";
+import Tabs from "../tabs/tab";
 
 function Header() {
-  const tabs = [
-    { title: "Services", id: 1 },
-    { title: "Works", id: 2 },
-    { title: "Notes", id: 3 },
-    { title: "Experience", id: 4 },
-  ];
+ 
   return (
     <>
       <div className="header">
         <div className="logo">
           <img src={Logo} alt="logo" className="sign" />
         </div>
-        <div className="tabs">
-          {tabs.map((tab) => (
-            <div className="tab" key={tab.id}>
-              <div className="tab-title">{tab.title}</div>
-            </div>
-          ))}
-        </div>
+        <Tabs className="tabs" />
         <div className="contact">
           <p>08010004557</p>
           <div className="contact-icon">

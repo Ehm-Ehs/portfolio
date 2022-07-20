@@ -1,11 +1,11 @@
 import "./skills.css";
-
+import Desktop from "../images/desktop.svg"
 function Skills() {
   return (
     <>
       <div className="skill">
         <div className="leftDown">
-          <img src="#" alt="website" className="website" />
+          <img src={Desktop} alt="website" className="website" />
           <div className="skillset">
             <strong>
               <h3>Web Design</h3>

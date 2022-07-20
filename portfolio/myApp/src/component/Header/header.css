@@ -5,7 +5,7 @@
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    
 }
 
 .logo{
@@ -17,14 +17,7 @@ height:50px;
 width:180px;
 }
 
-.tabs{
-    display: flex;
-    justify-content: space-around;
-}
 
-.tab-title{
-padding:0 10px;
-}
 
 
 .contact{
