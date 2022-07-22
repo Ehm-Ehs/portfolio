@@ -1,11 +1,11 @@
 import "./dottedLine.css";
-function DottedLine() {
+function DottedLine(props) {
   return (
     <>
       <div className="dotted">
-        <div class="container">
-          <div class="dashed-line">
-            <div class="orange-circle"></div>
+        <div className="container">
+          <div className="dashed-line">
+            <div className={props.className}></div>
           </div>
         </div>
       </div>

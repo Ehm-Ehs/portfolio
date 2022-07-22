@@ -7,7 +7,7 @@ function ContactUs() {
         <div className="hi">
           <h3>Let's make something amazing together.</h3>
           <h3 className="contactLinks">
-            Start by <a href="#"> saying hi</a>
+            Start by <a href="#" className="contact-link"> saying hi</a>
           </h3>
         </div>
 

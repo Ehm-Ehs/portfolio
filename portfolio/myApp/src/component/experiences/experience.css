@@ -20,11 +20,17 @@
 
 }
 
+.position-name{
+    display: flex;
+    justify-content: space-around;
+}
+
 .dottedLine{
     padding: 30px;
 }
 
 .company-name{
+    padding-bottom: 40px;
 
 }
 

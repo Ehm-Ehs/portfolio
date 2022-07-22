@@ -1,6 +1,7 @@
 .contact-us{
     display: flex;
     justify-content: space-around;
+    padding-top: 40px;
 }
 
 .tab1{
@@ -10,4 +11,9 @@
 
 .contactLinks{
     padding-top: 50px;
+}
+
+.contact-link{
+    text-decoration: none;
+    color: #104a8e;
 }

@@ -6,3 +6,8 @@
 .tab-title{
 padding:10px 10px;
 }
+
+.link{
+    text-decoration: none;
+    color: black;
+}

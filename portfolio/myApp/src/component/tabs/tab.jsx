@@ -12,7 +12,7 @@ function Tabs(props){
         <div className={props.className}>
           {tabs.map((tab) => (
             <div className="tab" key={tab.id}>
-              <div className="tab-title">{tab.title}</div>
+              <div className="tab-title"><a href="#" className="link">{tab.title}</a></div>
             </div>
           ))}
         </div>

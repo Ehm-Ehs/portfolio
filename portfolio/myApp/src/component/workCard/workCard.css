@@ -1,0 +1,15 @@
+.work-tab{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.work-box{
+    border-radius: 10px;
+    padding: 20px;
+   
+}
+
+.blue{
+    background-color: #104a8e;
+}

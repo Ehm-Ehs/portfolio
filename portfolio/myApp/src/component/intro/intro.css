@@ -9,8 +9,20 @@
 }
 
 .left{
-
+animation: slide 1s cubic-bezier(0.32, 0, 0.67, 0) 1s 1 alternate both;
 }
+@keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
 
 .naming{
     padding: 20px;
@@ -26,7 +38,6 @@
 }
 
 .experience{
-    padding: 20px;
     display: flex;
     padding-left: 100px;
 }
@@ -41,10 +52,55 @@ padding:0 10px;
 }
 
 .right{
+    animation: bounce 1s cubic-bezier(0.32, 0, 0.67, 0) 1s 1 alternate both;
+}
 
+@keyframes bounce {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: scale(0);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: scale(0.7);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: scale(0.84);
+	}
+
+	89% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: scale(0.95);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
 }
 
 .right-text{
 padding: 20px;
+font-weight: 200;
 }
 
