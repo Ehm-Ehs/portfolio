@@ -26,6 +26,8 @@ animation: slide 1s cubic-bezier(0.32, 0, 0.67, 0) 1s 1 alternate both;
 
 .naming{
     padding: 20px;
+	line-height: 62px;
+	font-size: 54px;
 }
 
 .name{
@@ -34,12 +36,22 @@ animation: slide 1s cubic-bezier(0.32, 0, 0.67, 0) 1s 1 alternate both;
 
 .email{
     padding: 80px 20px;
+	color: #94643B;
 
+}
+
+.space{
+	padding-top: 80px;
 }
 
 .experience{
     display: flex;
     padding-left: 100px;
+}
+
+.num{
+	padding-top: 10px;
+	font-size: 52px;
 }
 
 .years{

@@ -4,5 +4,7 @@
  max-width: 1500px;
  min-width: 1000px;
  font-family: 'Fira Sans', sans-serif;
+ line-height: 25px;
+ margin: 0 auto;
 }
 

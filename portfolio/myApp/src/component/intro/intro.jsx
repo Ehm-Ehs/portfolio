@@ -7,13 +7,13 @@ function Intro() {
       <div className="intro">
         <div className="left">
           <h1 className="naming">
-            Hey there, I'm <span className="name">Mariam</span>
+            Hey there, <br/>I'm <span className="name">Mariam</span>
           </h1>
           <strong>
           
             <p className="email">salamimariamkofoworola@gmail.com</p>
           </strong>
-          <div className="experience email">
+          <div className="experience space">
             <h1 className="num">4</h1>
             <div className="years">
               <strong>

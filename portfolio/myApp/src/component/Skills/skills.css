@@ -11,6 +11,10 @@ padding: 20px 40px;
     align-items: center;
 }
 
+.right-h{
+	font-size: 32px;
+	padding: 15px;
+}
 
 
 .skill-year{
@@ -106,4 +110,8 @@ padding: 20px 40px;
 .right{
     padding-left: 100px;
 
+}
+
+.lorem{
+	line-height: 25px;
 }

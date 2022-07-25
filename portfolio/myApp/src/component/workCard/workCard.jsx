@@ -11,7 +11,7 @@ function WorkCard(props){
                 <h4> {work.title} </h4>
               </strong>
               <p> {work.description} </p>
-              <img src={work.src} alt="img" />
+              <img src={work.src} alt="img" className="workImg" />
             </div>
          
         

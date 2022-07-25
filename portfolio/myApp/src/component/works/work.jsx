@@ -1,5 +1,8 @@
 import WorkCard from "../workCard/workCard";
 import "./work.css";
+import home from "../images/home.png"
+import food from "../images/food.png"
+
 
 
 function Work() {
@@ -7,21 +10,21 @@ function Work() {
         {
           title: "Web Design",
           description: " Event Management E-commerce",
-          src: "../images/home.jpg",
+          src: home,
           id: 1,
           className:"blue"
         },
         {
           title: "Web Design",
           description: " Event Management E-commerce",
-          src: "../images/food.jpg",
+          src:food,
           id: 2,
           className:"yellow"
         },
         {
           title: "Web Design",
           description: " Event Management E-commerce",
-          src: "../images/home.jpg",
+          src: home,
           id: 3,
           className:"orange"
         },
@@ -31,8 +34,8 @@ function Work() {
       <div className="work">
         <div className="work-h">
           <div>
-            <strong><h3>My Latest Work</h3></strong>
-            <p>Perfect Solutions Provided</p>
+            <strong ><h3 className="workHeading">My Latest Work</h3></strong>
+            <p className="workP">Perfect Solutions Provided</p>
           </div>
           <a href="#" className="work-link">
             <strong>Explore More Works</strong>

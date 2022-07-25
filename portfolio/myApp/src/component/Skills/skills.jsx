@@ -15,11 +15,11 @@ function Skills() {
         </div>
         <div className="right">
           <strong>
-            <h3>What do i help</h3>
+            <h3 className="right-h">What do i help</h3>
           </strong>
-          <p>
+          <p className="lorem">
             i will help you build your website to be fuctional,bring your
-            information and digital product to live{" "}
+            information and digital product to live.
           </p>
           <p className="lorem">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
