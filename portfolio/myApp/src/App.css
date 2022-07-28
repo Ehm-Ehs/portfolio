@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,200;1,500&display=swap');
+
+*{
+  scroll-behavior: smooth;
+}
+
+
 .App {
   padding: 5px 20px;
  max-width: 1500px;
@@ -6,5 +12,6 @@
  font-family: 'Fira Sans', sans-serif;
  line-height: 25px;
  margin: 0 auto;
+ 
 }
 

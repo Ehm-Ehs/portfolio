@@ -1,5 +1,5 @@
 import "./header.css";
-import Logo from "../images/logo.png";
+import Logo from "../images/logo(2).png";
 import Tabs from "../tabs/tab";
 
 function Header() {

@@ -7,10 +7,10 @@ function WorkCard(props){
        
           
             <div className={"work-box"} style={{backgroundColor:`${work.className}`}}>
-              <strong>
-                <h4> {work.title} </h4>
+              <div className="worktext"><strong>
+                <h4 className="workText"> {work.title} </h4>
               </strong>
-              <p> {work.description} </p>
+              <p className="workText"> {work.description} </p></div>
               <img src={work.src} alt="img" className="workImg" />
             </div>
          

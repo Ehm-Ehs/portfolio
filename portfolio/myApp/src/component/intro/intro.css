@@ -114,5 +114,17 @@ padding:0 10px;
 .right-text{
 padding: 20px;
 font-weight: 200;
+padding-top: 55px;
+}
+
+.logoh{
+	width: 150px;
+}
+
+.logohc{
+	padding-top: 250px;
+	padding-left: 100px;
+	border-radius: 15px;
+	width: 150px;
 }
 

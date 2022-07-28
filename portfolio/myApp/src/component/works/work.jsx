@@ -12,26 +12,26 @@ function Work() {
           description: " Event Management E-commerce",
           src: home,
           id: 1,
-          className:"blue"
+          className:"#466289"
         },
         {
           title: "Web Design",
           description: " Event Management E-commerce",
           src:food,
           id: 2,
-          className:"yellow"
+          className:"#ffb739"
         },
         {
           title: "Web Design",
           description: " Event Management E-commerce",
           src: home,
           id: 3,
-          className:"orange"
+          className:"#fa6121"
         },
       ];
   return (
     <>
-      <div className="work">
+      <div className="work" id="work" >
         <div className="work-h">
           <div>
             <strong ><h3 className="workHeading">My Latest Work</h3></strong>

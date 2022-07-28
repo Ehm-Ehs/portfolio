@@ -26,7 +26,7 @@ function Experience() {
   ];
   return (
     <>
-      <h1 className="work"> My Work Experiences</h1>
+      <h1 className="work" id="experience"> My Work Experiences</h1>
       <div className="experience experiences ">
         <div className="companies">
           {experiences.map((experience) => (

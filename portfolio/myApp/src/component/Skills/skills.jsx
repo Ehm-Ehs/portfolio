@@ -3,7 +3,7 @@ import Desktop from "../images/desktop.svg";
 function Skills() {
   return (
     <>
-      <div className="skill">
+      <div className="skill" id="skill" >
         <div className="skill-left">
           <img src={Desktop} alt="website" className="website" />
           <div className="skillset">
