@@ -5,8 +5,9 @@ function DottedLine(props) {
       <div className="dotted">
         <div className="container">
           <div className="dashed-line">
-            <div className={props.className}></div>
+           
           </div>
+          <div className={props.className}></div>
         </div>
       </div>
     </>

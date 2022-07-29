@@ -7,7 +7,7 @@ function ContactUs() {
         <div className="hi">
           <h3>Let's make something amazing together.</h3>
           <h3 className="contactLinks">
-            Start by <a href="#" className="contact-link"> saying hi</a>
+            Start by <a href="mailto:salamimariam239@gmail.com?" className="contact-link" > saying hi</a>
           </h3>
         </div>
 
@@ -20,6 +20,13 @@ function ContactUs() {
           </div>
           <Tabs className="tab1"/>
         </div>
+      </div>
+      <div className="footer">
+        <div>Copyright@2022</div>
+        <div className="footer-content">
+          <p className="cookie-policy">Policy</p>
+          <p className="cookie-policy">Cookies</p>
+                </div>
       </div>
     </>
   );

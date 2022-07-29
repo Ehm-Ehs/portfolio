@@ -12,14 +12,11 @@ function Header() {
         </div>
         <Tabs className="tabs" />
         <div className="contact">
-          <p>08010004557</p>
-          <div className="contact-icon">
-          <img
+          <a href="tel:08010004457" ><img
             src="https://www.svgrepo.com/show/70503/phone-call.svg"
             alt="phone"
             className="phone"
-          />
-          </div>
+          /></a>
         </div>
       </div>
     </>

@@ -33,12 +33,12 @@ function Work() {
     <>
       <div className="work" id="work" >
         <div className="work-h">
-          <div>
-            <strong ><h3 className="workHeading">My Latest Work</h3></strong>
+          <div className="portfolio-exp">
+          <h3 className="workHeading">My Latest Work</h3>
             <p className="workP">Perfect Solutions Provided</p>
           </div>
           <a href="#" className="work-link">
-            <strong>Explore More Works</strong>
+           <h3>Explore More Works</h3>
           </a>
         </div>
         <div className="work-tab">

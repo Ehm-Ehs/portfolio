@@ -37,5 +37,24 @@
     transform: scaleX(1);
     transform-origin: 0 0;
   }
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #b2beb5;
+    padding: 15px 0;
+  }
+
+  .footer-content{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .cookie-policy{
+    padding-left: 10px;
+  }
+
+
+  
   
   

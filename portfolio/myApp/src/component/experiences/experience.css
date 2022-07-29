@@ -1,12 +1,18 @@
 .experiences{
    justify-content: space-between;
-   /* text-align: left;
-   width: 500px; */
+  
+   
 }
 
-.work{
+.portfolio-exp{
+    margin: auto;
+    padding: 40px 10px;
+}
+
+.exp{
     text-align: center;
-    padding-bottom: 30px;
+    padding: 50px 0;
+    line-height: 2em;
 }
 
 .companies{
